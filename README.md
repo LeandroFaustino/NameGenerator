@@ -9,4 +9,4 @@ The visuals were also done to explore what I have learned from my Multimedia cou
 This project features:
   -Front-End with Javascript, CSS, HTML
   -UX UI Design
-  -Graphic
+  -Graphic Design
