@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="nameRand.js"></script>
+</head>
+<body>
+   
+
+
+<div id="headerTitle">
+<div id="blackbackground">
+    
+        <h1>RPG Name Generator</h1>
+        <h4>Transform your real name into an epic one!</h4>
+</div>    
+
+</div>
+
+
+<main id="masterMain">
+    <div id="main">
+    
+    
+        <form onsubmit="event.preventDefault();return buscar();" >
+            <label id="formTitle">Your name:</label>
+            <input type="text" id="nome">
+            <br>
+        
+            <button> Generate! </button>
+            <input type="reset" value="Reset">
+        
+            <button onclick="adicionar(); DoAnimation();"> Add to Favorites </button>
+
+        </form>
+    
+    
+        <div id="resultado"></div>
+
+    
+    </div> 
+
+    <div id="adicionar"></div>     
+
+
+</main>    
+
+
+
+
+
+    
+
+    
+    
+
+</body>
+</html>

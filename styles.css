@@ -1,0 +1,172 @@
+body{
+background-color: crimson;
+background-image: url(img/dungeonBG.gif);
+background-size: cover;
+background-repeat: repeat;
+
+}
+
+ #main{
+
+  background-image:url(img/pixelInterface3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  text-align: center;
+   position:relative;
+   padding: 2em;
+   width: 20em;
+   height: 20em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   font-family: PixelifySans;
+   color: azure;
+}
+
+
+  #formTitle{
+    position: relative;
+    font-size: 2em;
+    top: -1em;
+    
+  }
+
+ #resultado{
+
+   position: relative;
+   display: flex;
+   position: absolute;
+   bottom: 1.8em;
+   font-size: 2em;
+
+ }
+
+ #masterMain{
+
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  
+  bottom: -2em;
+
+ }
+
+ #headerTitle{
+  
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  font-family: PixelifySans;
+  color:white;
+  position:relative;
+  bottom: -1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ 
+ #blackbackground{
+
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  opacity: 80%;
+  padding: 0.5em;
+
+
+ }
+
+ #favoritos{
+
+  width: 100%;
+  height: fit-content;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+
+ }
+
+ input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing:border-box;
+  background-color: rgb(223, 223, 223);
+  position: relative;
+  top: -0.5em;
+  color:#37344d;
+  border-style:inset;
+  border-width: 0.2em;
+  border-color:#625c89;
+  text-align: center;
+  font-family: PixelifySans;
+  font-size: 1.5em;
+}
+
+
+button{
+
+  background-color:rgb(223, 223, 223);
+  border-style: inset;
+  border-color: #625c89;
+  border-width: 0.2em;
+  font-family: PixelifySans;
+  font-size: 1em;
+}
+ 
+input[type=reset]{
+
+  background-color: rgb(223, 223, 223);
+  border-style: inset;
+  border-color: #625c89;
+  border-width: 0.2em;
+  font-family: PixelifySans;
+  font-size: 1em;
+
+}
+ 
+#adicionar{
+
+position: absolute;
+left: 95em;
+padding: 0.5em;
+background-image: url(img/pixelBackground.jpg);
+background-size: auto;
+border-color: #e5e5e5;
+width: fit-content;
+height: fit-content;
+border-style:groove;
+border-width: 0.8em;
+font-family: PixelifySans;
+font-size: 1em; 
+color: azure;
+opacity: 0%;
+
+}
+
+.animate{
+
+  animation-name: slideLeft;
+  animation-duration: 2s;
+  animation-fill-mode:forwards;
+
+}
+
+@keyframes slideLeft {
+  0%   { left:100em; top:0px; opacity: 0%;}
+  100% { left:62em; top:0px; opacity: 100%;}
+}
+
+
+
+
+@font-face {
+  font-family: PixelifySans;
+  src: url(fonts/PixelifySans-VariableFont_wght.ttf);
+}
+
+ 
