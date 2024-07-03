@@ -5,7 +5,7 @@ together with HTML and CSS, after I concluded my Multimedia course.
 The project consists on the user inputing a name, with which the program will split the letters and save
 them into an array, then together with some methods it will randomly alter the index where each letter 
 is stored altering the order the letters are displayed and printed out.
-The visuals were also done to explore what I have learned from my Multimedia course.
+The visuals were also done to explore what I have learned from my Multimedia course, regarding graphic design and UX UI.
 This project features:
   -Front-End with Javascript, CSS, HTML
   -UX UI Design
